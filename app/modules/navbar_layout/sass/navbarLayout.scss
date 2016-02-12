@@ -1,0 +1,28 @@
+$navbarWidth: 250px;
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: $navbarWidth;
+	background-color: #737373;
+
+	.nav-button-list {
+		margin: 10px 0;
+
+		.nav-button {
+			margin-bottom: 6px;
+			padding: 2px 20px;
+			
+			background-color: #99d6ff;
+			
+			cursor: pointer;
+		}
+	}
+
+}
+
+.page-content {
+	padding-left: $navbarWidth;
+}

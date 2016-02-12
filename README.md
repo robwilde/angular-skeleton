@@ -5,7 +5,11 @@
 This is a experiment of starting with the [angular-seed](https://github.com/angular/angular-seed) repository and modifying it into an **angular only** skeleton that is well strucutred and TDD ready.
 
 ## Dependencies
-There are only two dependency for this project that require installition, **npm** and **sass**, however the sass dependency is a ruby gem, so therefore you'll need **ruby** installed on your machine to install the sass gem.  Visit their sites to see how to download them on your machine.
+There are four dependencies your machine will need installed to use this skeleton:
+* npm - ```npm -v```
+* java - ```java -version```
+* ruby - ```ruby -v```
+* sass - ```sass -v```
 
 ## Folder Structure
 The main folder hierarchy is strucutred in this way:

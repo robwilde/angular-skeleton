@@ -64,7 +64,8 @@ The main App and each module are required to have a module file in their base di
 1. Start the **http-server** by executing the ```npm run start-server``` comamnd in the project root directory.
 2. Go to **localhost:8000/build/** to see your angular app in action!
 3. Run ```npm run watch``` to start the grunt watch task that will recompile your js/sass/html changes once saved.  Then all you need to do is refresh your browser!
-4. To see if the server is currently running, execute ```npm run check-server```.  To shutdown the server, execute ```npm run stop-server```.
+4. To see if the server is currently running, execute ```npm run check-server```.
+5. To shutdown the server, execute ```npm run stop-server```.
 
 ## Grunt Tasks
 The **build** task for this web application has these steps:
@@ -74,7 +75,7 @@ The **build** task for this web application has these steps:
 3. **cssmin** to minify the compiled css
 4. **html2js** to convert the partials into an angular module and into angular's template cache
 5. **jshint** to check all the javascript syntax and global variable usage
-6. **uglify** to bundle and minify pieaces of the javascript code.
+6. **uglify** to bundle and minify pieces of the javascript code.
 7. **copy** to move the index.html file into the build folder
 8. **clean** to remove the tmp/ folder
 

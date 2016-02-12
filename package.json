@@ -39,7 +39,7 @@
     "stop-server": "pkill -f 'http-server -a localhost -p 8000' && echo '\\x1B[1;35m### Server stopped on localhost:8000 ###\\x1B[0m'",
     "check-server": "pgrep -f 'http-server -a localhost -p 8000' 1>/dev/null && echo '\\x1B[1;35m### Server is running on localhost:8000 ###\\x1B[0m' || echo '\\x1B[1;35m### Server is NOT running! ###\\x1B[0m'",
     "pretest-unit": "npm install",
-    "test-unit": "karma start karma.conf.js",
+    "test-unit": "node_modules/karma/bin/karma start karma.conf.js",
     "pretest-e2e": "webdriver-manager update",
     "test-e2e": "pgrep -f 'http-server -a localhost -p 8000' && protractor protractor.conf.js || echo '\\x1B[1;35m### Server is not started on port 8000! ###\\x1B[0m'",
     "watch": "grunt watch"
